@@ -11703,7 +11703,7 @@ react-app-polyfill@^1.0.1:
     regenerator-runtime "0.13.3"
     whatwg-fetch "3.0.0"
 
-react-clientside-effect@^1.2.0:
+react-clientside-effect@1.2.2, react-clientside-effect@^1.2.0:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/react-clientside-effect/-/react-clientside-effect-1.2.2.tgz#6212fb0e07b204e714581dd51992603d1accc837"
   integrity sha512-nRmoyxeok5PBO6ytPvSjKp9xwXg9xagoTK1mMjwnQxqM9Hd7MNPl+LS1bOSOe+CV2+4fnEquc7H/S8QD3q697A==
@@ -11914,6 +11914,20 @@ react-hot-loader@4.6.5:
     prop-types "^15.6.1"
     react-lifecycles-compat "^3.0.4"
     shallowequal "^1.0.2"
+    source-map "^0.7.3"
+
+react-hot-loader@^4.3.6:
+  version "4.12.13"
+  resolved "https://registry.yarnpkg.com/react-hot-loader/-/react-hot-loader-4.12.13.tgz#78dcb55f49f88ce3d4316c7c86a8c01fdd196cd2"
+  integrity sha512-4Byk3aVQhcmTnVCBvDHOEOUnMFMj81r2yRKZQSfLOG2yd/4hm/A3oK15AnCZilQExqSFSsHcK64lIIU+dU2zQQ==
+  dependencies:
+    fast-levenshtein "^2.0.6"
+    global "^4.3.0"
+    hoist-non-react-statics "^3.3.0"
+    loader-utils "^1.1.0"
+    prop-types "^15.6.1"
+    react-lifecycles-compat "^3.0.4"
+    shallowequal "^1.1.0"
     source-map "^0.7.3"
 
 react-hotkeys@2.0.0-pre4:
@@ -12197,13 +12211,14 @@ react-transition-group@^2.2.1:
     prop-types "^15.6.2"
     react-lifecycles-compat "^3.0.4"
 
-react-universal-component@^3.0.3:
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/react-universal-component/-/react-universal-component-3.0.3.tgz#88a7263584a9cd5497715cf1488eb4d3cfa17175"
-  integrity sha512-geDPqZB0amxRVvtRZrQASaJWHeMzPAp+KcQitwS+6aj0B4JubT4nCVJSI4jqOpZjY7I2bvLXDNyxuCP9weJxWg==
+react-universal-component@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/react-universal-component/-/react-universal-component-4.0.0.tgz#51e74198b98092dff6faf25315091070547ed129"
+  integrity sha512-FOL+1ZDS7Fp6AvUbkTDjttTOGxSRJZaU5M9MX+mm/Uj4/Azq7r2TpFACaUvMxFUYHjDRg2NpKwZDsHvywXMvMg==
   dependencies:
     hoist-non-react-statics "^2.2.1"
     prop-types "^15.5.10"
+    react-hot-loader "^4.3.6"
 
 react-yandex-maps@^4.0.1:
   version "4.0.1"
@@ -13141,7 +13156,7 @@ shallow-equal@^1.1.0:
   resolved "https://registry.yarnpkg.com/shallow-equal/-/shallow-equal-1.2.0.tgz#fd828d2029ff4e19569db7e19e535e94e2d1f5cc"
   integrity sha512-Z21pVxR4cXsfwpMKMhCEIO1PCi5sp7KEp+CmOpBQ+E8GpHwKOw2sEzk7sgblM3d/j4z4gakoWEoPcjK0VJQogA==
 
-shallowequal@1.1.0, shallowequal@^1.0.1, shallowequal@^1.0.2:
+shallowequal@1.1.0, shallowequal@^1.0.1, shallowequal@^1.0.2, shallowequal@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/shallowequal/-/shallowequal-1.1.0.tgz#188d521de95b9087404fd4dcb68b13df0ae4e7f8"
   integrity sha512-y0m1JoUZSlPAjXVtPPW70aZWfIL/dSP7AFkRnniLCrK/8MDKog3TySTBmckD+RObVxH0v4Tox67+F14PdED2oQ==
