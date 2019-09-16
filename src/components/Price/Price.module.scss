@@ -1,0 +1,43 @@
+.container {
+  width: 100%;
+  // TODO: убрать
+  margin-top: 15rem;
+}
+
+.card {
+  width: 482px;
+  height: 305px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 2rem;
+  .title {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 3.6rem;
+    line-height: 4.2rem;
+
+    color: #000000;
+  }
+  .text {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+
+    color: #000000;
+  }
+  .price {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #424242;
+  }
+  .textWrapper {
+    margin-left: 14.4rem;
+  }
+}
