@@ -1,6 +1,6 @@
 // packages
 import React from 'react'
-import s from '../desktop/pageHomeDesktop.module.scss'
+import s from './pageHomeMobile.module.scss'
 import BannerMane from '../../../components/Mobile/BannerMane/BannerMane'
 import Advantages from '../../../components/Mobile/Advantages/Advantages'
 import Layout from '../../../components/Mobile/Layout/Layout'

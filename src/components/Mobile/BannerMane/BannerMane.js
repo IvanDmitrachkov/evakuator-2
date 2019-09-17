@@ -1,6 +1,6 @@
 import React from 'react'
 import css from './BannerMane.module.scss'
-import img from '../../../static/5633408c216ba.png'
+import img from '../../../static/Evakuator-dlya-vas-1024x768.jpg'
 import Layout from '../Layout/Layout'
 
 const BannerMane = () => (
