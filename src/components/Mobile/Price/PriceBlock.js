@@ -2,10 +2,10 @@ import React from 'react'
 import css from './Price.module.scss'
 import Layout from '../Layout/Layout'
 import PriceCard from './PriceCard'
-import auto1 from '../../static/auto1.png'
-import auto2 from '../../static/auto2.png'
-import auto3 from '../../static/auto3.png'
-import auto4 from '../../static/auto4.png'
+import auto1 from '../../../static/auto1.png'
+import auto2 from '../../../static/auto2.png'
+import auto3 from '../../../static/auto3.png'
+import auto4 from '../../../static/auto4.png'
 
 const PriceBlock = () => (
   <div className={css.container}>

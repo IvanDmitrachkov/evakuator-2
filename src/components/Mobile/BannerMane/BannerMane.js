@@ -1,6 +1,6 @@
 import React from 'react'
 import css from './BannerMane.module.scss'
-import img from '../../static/5633408c216ba.png'
+import img from '../../../static/5633408c216ba.png'
 import Layout from '../Layout/Layout'
 
 const BannerMane = () => (
@@ -8,8 +8,8 @@ const BannerMane = () => (
     <Layout>
       <div className={css.wrapper}>
         <h1 className={css.title}>Эвакуатор в Сыктывкаре</h1>
-        <a className={css.button}>Быстрый вызов</a>
-        <a className={css.phone} href={'tel:891286353333'}>тел. 335 333</a>
+        <a href={'tel:891286353333'} className={css.button}>Быстрый вызов</a>
+        <div className={css.phone}>тел. 335 333</div>
         <div className={css.socials}>
           <a href={'viber://add?number=%2B791286353333'} className={css.viber} />
           <a href={'whatsapp://send?phone=791286353333'} className={css.wa} />

@@ -9,8 +9,9 @@ const PriceCard = ({ title, text, price, image }) => (
       <div className={css.text}>{text}</div>
       <div className={css.price}>от {price}Р</div>
     </div>
-    <div className={css.image} style={{ backgroundImage: `url(${image})` }} />
-    <div className={css.button}>Вызвать</div>
+    <a href={'tel:891286353333'} className={css.button}>
+      <div >Вызвать</div>
+    </a>
   </div>
 )
 
