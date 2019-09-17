@@ -30,11 +30,11 @@
 
 .title {
   font-family: Roboto, sans-serif;
-  font-size: 6.4rem;
-  line-height: 7.5rem;
+  font-size: 3rem;
   color: #fff;
   font-style: normal;
   font-weight: normal;
+  text-align: center;
 }
 
 .button {
@@ -60,13 +60,11 @@
   line-height: 2.8rem;
   color: #F7B100;
   position: absolute;
-  top: 5rem;
-  right: 5rem;
+  top: 3rem;
 }
 
 .socials {
   position: absolute;
-  left: 0;
   bottom: 12rem;
   height: 3rem;
   width: 12rem;
@@ -79,13 +77,13 @@
     background-repeat: no-repeat;
   }
   .viber {
-    background-image: url("../../static/viber.png");
+    background-image: url("../../../static/viber.png");
   }
   .wa {
-    background-image: url("../../static/wa.png");
+    background-image: url("../../../static/wa.png");
   }
   .vk {
-    background-image: url("../../static/vk.png");
+    background-image: url("../../../static/vk.png");
   }
 }
 
