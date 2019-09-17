@@ -10,7 +10,7 @@ const Advantages = () => (
       </div>
       <div className={css.card}>
         <img src={img1} alt={'adv1'} />
-        <span>Проффесиональные водители</span>
+        <span>Профессиональные водители</span>
       </div>
       <div className={css.card}>
         <img src={img1} alt={'adv1'} />

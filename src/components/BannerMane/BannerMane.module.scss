@@ -50,13 +50,18 @@
   justify-content: center;
   align-items: center;
   margin-top: 3.6rem;
+  transition: all 200ms ease-in;
+
+  &:hover {
+    background-color:#fC1515;
+  }
 }
 
 .phone {
   font-family: Roboto, sans-serif;
   font-style: normal;
-  font-weight: 300;
-  font-size: 2.4rem;
+  font-weight: 400;
+  font-size: 4.8rem;
   line-height: 2.8rem;
   color: #F7B100;
   position: absolute;
@@ -77,6 +82,11 @@
     height: 3rem;
     background-size: contain;
     background-repeat: no-repeat;
+    transition: all ease-in 200ms;
+
+    &:hover {
+      opacity: 0.5;
+    }
   }
   .viber {
     background-image: url("../../static/viber.png");
