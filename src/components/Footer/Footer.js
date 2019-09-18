@@ -10,7 +10,7 @@ const Footer = () => (
         <div className={css.info}>
           <div className={css.number}>335 333</div>
           <p>Эвакуатор Сыктывкар</p>
-          <p style={{ marginTop: '2rem', marginBottom: '6rem' }}>Круглосуточно, без выхоных</p>
+          <p style={{ marginTop: '2rem', marginBottom: '6rem' }}>Круглосуточно, без выходных</p>
           <div className={css.socials}>
             <a href={'viber://add?number=%2B791286353333'} className={css.viber} />
             <a href={'whatsapp://send?phone=791286353333'} className={css.wa} />
