@@ -12,8 +12,8 @@ const Footer = () => (
           <p>Эвакуатор Сыктывкар</p>
           <p style={{ marginTop: '2rem', marginBottom: '6rem' }}>Круглосуточно, без выходных</p>
           <div className={css.socials}>
-            <a href={'viber://add?number=%2B791286353333'} className={css.viber} />
-            <a href={'whatsapp://send?phone=791286353333'} className={css.wa} />
+            <a href={'tel:891286353333'} className={css.viber} />
+            <a href={'tel:891286353333'} className={css.wa} />
             <a href={'tel:891286353333'} className={css.vk} />
           </div>
         </div>

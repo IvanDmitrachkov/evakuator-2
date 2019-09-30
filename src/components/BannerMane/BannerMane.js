@@ -11,9 +11,9 @@ const BannerMane = () => (
         <a className={css.button} href={'tel:891286353333'}>Быстрый вызов</a>
         <a className={css.phone} href={'tel:891286353333'}>тел. 33-53-33</a>
         <div className={css.socials}>
-          <a href={'viber://add?number=%2B791286353333'} className={css.viber} />
-          <a href={'whatsapp://send?phone=791286353333'} className={css.wa} />
-          <a href={'tel:891286353333'} claspxsName={css.vk} />
+          <a href={'tel:891286353333'} className={css.viber} />
+          <a href={'tel:891286353333'} className={css.wa} />
+          <a href={'tel:891286353333'} className={css.vk} />
         </div>
       </div>
     </Layout>
