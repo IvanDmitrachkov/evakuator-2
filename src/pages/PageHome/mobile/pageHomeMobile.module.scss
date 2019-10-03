@@ -1,7 +1,8 @@
 .container {
   width: 100%;
-  background: #C7C7C7;
+  background: #eeeeee;
   color: rgba(0,0,0,0.7);
+  font-size: 1.6rem;
 
   h2 {
     font-family: Roboto, sans-serif;
@@ -9,27 +10,21 @@
     font-weight: normal;
     font-size: 3.4rem;
     line-height: 4.6rem;
-    margin: 3.6rem 0;
+    margin: 2rem 0;
     color: #000000;
   }
 
   span {
     display: block;
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 2.4rem;
-    line-height: 4rem;
+    font-size: 1.6rem;
+    line-height: 3rem;
     color: rgba(0,0,0,0.7);
   }
 
   li {
     span {
-      font-family: Roboto, sans-serif;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 2.4rem;
-      line-height: 4rem;
+      font-size: 1.6rem;
+      line-height: 3rem;
     }
 
     list-style-type: disc;

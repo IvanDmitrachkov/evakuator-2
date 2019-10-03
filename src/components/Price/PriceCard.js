@@ -8,6 +8,7 @@ const PriceCard = ({ title, text, price, image }) => (
       <div className={css.title}>{title}</div>
       <div className={css.text}>{text}</div>
       <div className={css.price}>от {price}Р</div>
+      <div className={css.annotation}>* Цены указаны за подачу</div>
     </div>
     <div className={css.image} style={{ backgroundImage: `url(${image})` }} />
     <div className={css.button}>Вызвать</div>

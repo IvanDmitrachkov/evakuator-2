@@ -1,24 +1,20 @@
 .container {
   width: 100%;
-  background: #C7C7C7;
+  background: #eeeeee;
 
 
   h2 {
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-weight: normal;
     font-size: 4.8rem;
     line-height: 5.6rem;
     margin: 3.6rem 0;
+    font-weight: 400;
     color: #000000;
   }
 
   span {
     display: block;
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 2.4rem;
+    font-weight: 300;
+    font-size: 2rem;
     line-height: 4rem;
     /* or 167% */
 
@@ -27,12 +23,8 @@
 
   li {
     span {
-      font-family: Roboto, sans-serif;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 2.4rem;
+      font-size: 2rem;
       line-height: 4rem;
-      /* or 167% */
       color: #000000;
     }
 

@@ -1,9 +1,10 @@
 import React from 'react'
-import css from './Footer.module.scss'
-import img from '../../../static/footer.png'
-import Layout from '../Layout/Layout'
+import css from './FooterMobile.module.scss'
+import img from '../../static/footer.png'
+import Layout from '../Layout/LayoutMobile'
+import { MOBILE_PHONE } from '../../constants/phones'
 
-const Footer = () => (
+const FooterMobile = () => (
   <div className={css.container} style={{ backgroundImage: `url(${img})` }}>
     <Layout>
       <div className={css.wrapper}>
@@ -12,9 +13,9 @@ const Footer = () => (
           <p>Эвакуатор Сыктывкар</p>
           <p style={{ marginTop: '2rem', marginBottom: '6rem' }}>Круглосуточно, без выходных</p>
           <div className={css.socials}>
-            <a href={'tel:891286353333'} className={css.viber} />
-            <a href={'tel:891286353333'} className={css.wa} />
-            <a href={'tel:891286353333'} className={css.vk} />
+            <a href={`tel:${MOBILE_PHONE}`} className={css.viber} />
+            <a href={`tel:${MOBILE_PHONE}`} className={css.wa} />
+            <a href={`tel:${MOBILE_PHONE}`} className={css.vk} />
           </div>
         </div>
         <div className={css.hr} />
@@ -27,4 +28,4 @@ const Footer = () => (
   </div>
 )
 
-export default React.memo(Footer)
+export default React.memo(FooterMobile)

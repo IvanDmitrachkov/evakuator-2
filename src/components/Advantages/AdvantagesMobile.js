@@ -1,9 +1,9 @@
 import React from 'react'
-import css from './Advantages.module.scss'
-import img1 from '../../../static/worker.png'
-import img3 from '../../../static/purse.png'
-import img2 from '../../../static/customer-service.png'
-const Advantages = () => (
+import css from './AdvantagesMobile.module.scss'
+import img1 from '../../static/worker.png'
+import img3 from '../../static/purse.png'
+import img2 from '../../static/customer-service.png'
+const AdvantagesMobile = () => (
   <div className={css.container}>
     <div className={css.wrapper}>
       <div className={css.card}>
@@ -22,4 +22,4 @@ const Advantages = () => (
   </div>
 )
 
-export default React.memo(Advantages)
+export default React.memo(AdvantagesMobile)
