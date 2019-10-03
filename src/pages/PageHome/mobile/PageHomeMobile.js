@@ -6,7 +6,7 @@ import Advantages from '../../../components/Advantages/AdvantagesMobile'
 import Layout from '../../../components/Layout/LayoutMobile'
 import PriceBlock from '../../../components/Price/PriceBlockMobile'
 import Footer from '../../../components/Footer/FooterMobile'
-import { MOBILE_PHONE_BIG_LINK, MOBILE_PHONE_LINK } from '../../../constants/phones'
+import { MOBILE_PHONE_LINK } from '../../../constants/phones'
 import Padding from '../../../components/Padding/Padding'
 
 const PageHomeMobile = () => (
@@ -17,8 +17,7 @@ const PageHomeMobile = () => (
 
     <Layout>
       <h2>Для вызова эвакуатора</h2>
-      <p>Званите по номеру {MOBILE_PHONE_LINK} (короткий)</p>
-      <p>Или на {MOBILE_PHONE_BIG_LINK}</p>
+      <p>Званите по номеру {MOBILE_PHONE_LINK}</p>
       <Padding value={50} />
       <h2>Вызовите эвакуатор</h2>
       <Padding value={20} />
