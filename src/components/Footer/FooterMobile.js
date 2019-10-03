@@ -2,7 +2,7 @@ import React from 'react'
 import css from './FooterMobile.module.scss'
 import img from '../../static/footer.png'
 import Layout from '../Layout/LayoutMobile'
-import { MOBILE_PHONE } from '../../constants/phones'
+import { MOBILE_LONG_PHONE } from '../../constants/phones'
 
 const FooterMobile = () => (
   <div className={css.container} style={{ backgroundImage: `url(${img})` }}>
@@ -13,9 +13,9 @@ const FooterMobile = () => (
           <p>Эвакуатор Сыктывкар</p>
           <p style={{ marginTop: '2rem', marginBottom: '6rem' }}>Круглосуточно, без выходных</p>
           <div className={css.socials}>
-            <a href={`tel:${MOBILE_PHONE}`} className={css.viber} />
-            <a href={`tel:${MOBILE_PHONE}`} className={css.wa} />
-            <a href={`tel:${MOBILE_PHONE}`} className={css.vk} />
+            <a href={`tel:${MOBILE_LONG_PHONE}`} className={css.viber} />
+            <a href={`tel:${MOBILE_LONG_PHONE}`} className={css.wa} />
+            <a href={`tel:${MOBILE_LONG_PHONE}`} className={css.vk} />
           </div>
         </div>
         <div className={css.hr} />

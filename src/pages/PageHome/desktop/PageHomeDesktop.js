@@ -7,12 +7,18 @@ import Advantages from '../../../components/Advantages/Advantages'
 import PriceBlock from '../../../components/Price/PriceBlock'
 import Footer from '../../../components/Footer/Footer'
 import Layout from '../../../components/Layout/Layout'
+import { MOBILE_PHONE_BIG_LINK, MOBILE_PHONE_LINK } from '../../../constants/phones'
+import Padding from '../../../components/Padding/Padding'
 
 const PageHomeDesktop = () => (
   <div className={s.container}>
     <BannerMane />
     <Advantages />
     <Layout>
+      <h2>Для вызова эвакуатора</h2>
+      <p>Званите по номеру {MOBILE_PHONE_LINK} (короткий)</p>
+      <p>Или на {MOBILE_PHONE_BIG_LINK}</p>
+      <Padding value={50} />
       <h2>Вызовите эвакуатор</h2>
       <div style={{ width: '75rem', marginBottom: '6rem' }}><span>Неожиданные неприятности в дороге могут случиться с каждым. Любой, даже практически новый автомобиль, который своевременно обслуживается в СЦ, не застрахован от поломки. В подобной ситуации закажите эвакуатор! Мы гарантируем Вам быстрое прибытие в любое время, а также недорогие расценки и бережное отношение к авто.</span></div>
       <ul>

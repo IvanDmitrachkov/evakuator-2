@@ -1,6 +1,7 @@
 import React from 'react'
 import css from './Price.module.scss'
 import PropTypes from 'prop-types'
+import { MOBILE_LONG_PHONE } from '../../constants/phones'
 
 const PriceCard = ({ title, text, price, image }) => (
   <div className={css.card}>
@@ -11,7 +12,7 @@ const PriceCard = ({ title, text, price, image }) => (
       <div className={css.annotation}>* Цены указаны за подачу</div>
     </div>
     <div className={css.image} style={{ backgroundImage: `url(${image})` }} />
-    <div className={css.button}>Вызвать</div>
+    <div className={css.button}><a href={`tel:${MOBILE_LONG_PHONE}`}>Вызвать</a></div>
   </div>
 )
 
