@@ -1,0 +1,18 @@
+.container {
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: white;
+  background: rgba(0,0,0,0.7);
+  padding: 2rem 0;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.phone {
+  color: white;
+}

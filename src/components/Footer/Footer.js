@@ -3,6 +3,7 @@ import css from './Footer.module.scss'
 import img from '../../static/footer.png'
 import Layout from '../Layout/Layout'
 import { MOBILE_LONG_PHONE } from '../../constants/phones'
+import Padding from '../Padding/Padding'
 
 const Footer = () => (
   <div className={css.container} style={{ backgroundImage: `url(${img})` }}>
@@ -11,7 +12,7 @@ const Footer = () => (
         <div className={css.info}>
           <div className={css.number}>335 333</div>
           <p>Эвакуатор Сыктывкар</p>
-          <p style={{ marginTop: '2rem', marginBottom: '6rem' }}>Круглосуточно, без выходных</p>
+          <Padding value={40} />
           <div className={css.socials}>
             <a href={`tel:${MOBILE_LONG_PHONE}`} className={css.viber} />
             <a href={`tel:${MOBILE_LONG_PHONE}`} className={css.wa} />

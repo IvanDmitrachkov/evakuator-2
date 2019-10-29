@@ -1,0 +1,24 @@
+.container {
+  padding: 5rem 0 10rem;
+  background-color: rgba(0,0,0,0.6);
+  text-align: center;
+  color: white;
+
+  h2 {
+    color: white;
+    font-size: 3.2rem;
+  }
+}
+
+.text {
+  line-height: 2.8rem;
+}
+
+.image {
+  background: url("../../static/1535113735188961232.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.phone {
+  font-size: 3rem;
+}

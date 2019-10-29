@@ -6,6 +6,7 @@ import auto1 from '../../static/auto1.png'
 import auto2 from '../../static/auto2.png'
 import auto3 from '../../static/auto3.png'
 import auto4 from '../../static/auto4.png'
+import Padding from '../Padding/Padding'
 
 export const items = [
   {
@@ -38,6 +39,7 @@ const PriceBlock = () => (
   <div className={css.container}>
     <Layout>
       <h2>Цены и тарифы</h2>
+      <Padding value={40} />
       <div className={css.cardWrapper}>
         {
           items.map((item, key) => (
@@ -48,6 +50,15 @@ const PriceBlock = () => (
           ))
         }
       </div>
+      <PriceCard
+        big
+        {...{
+          title: 'За городом и по России',
+          text: 'Эвакуация любой техники',
+          price: '40',
+          priceInfo: 'за километр'
+        }}
+      />
     </Layout>
   </div>
 )

@@ -1,8 +1,20 @@
 .container {
   width: 100%;
-  background: #eeeeee;
+  background: #ffffff;
   color: rgba(0,0,0,0.7);
   font-size: 1.6rem;
+
+  h2 {
+    font-weight: normal;
+  }
+
+
+  html {
+    background: #C7C7C7;
+  }
+}
+
+.content {
 
   h2 {
     font-family: Roboto, sans-serif;
@@ -35,9 +47,5 @@
   ul {
     padding-left: 2.5rem;
 
-  }
-
-  html {
-    background: #C7C7C7;
   }
 }

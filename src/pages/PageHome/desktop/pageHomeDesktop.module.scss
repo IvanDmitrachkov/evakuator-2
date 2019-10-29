@@ -1,6 +1,6 @@
 .container {
   width: 100%;
-  background: #eeeeee;
+  background: #ffffff;
   font-size: 2.2rem;
   font-weight: 300;
 
@@ -12,13 +12,19 @@
     color: #000000;
   }
 
+
+
+  html {
+    background: #C7C7C7;
+  }
+}
+
+.content {
   span {
     display: block;
     font-weight: 300;
     font-size: 2rem;
     line-height: 4rem;
-    /* or 167% */
-
     color: #000000;
   }
 
@@ -37,9 +43,5 @@
   ul {
     padding-left: 2.5rem;
 
-  }
-
-  html {
-    background: #C7C7C7;
   }
 }
