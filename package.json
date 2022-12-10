@@ -75,7 +75,7 @@
     "normalize.css": "^8.0.1",
     "pako": "1.0.10",
     "prop-types": "^15.6.2",
-    "qs": "^6.7.0",
+    "qs": "^6.8.3",
     "react": "^16.8.1",
     "react-accessible-accordion": "^2.4.5",
     "react-app-polyfill": "^1.0.1",
